@@ -4,20 +4,15 @@
   padding: 0;
   outline: none;
 }
-
 a {
   text-decoration: none !important;
 }
-
-
 ul {
   list-style-type: none;
 }
-
 img {
   width: 100%;
 }
-
 @font-face {
   font-family: 'PT Sans Bold';
   src: url("../fonts/pt_sans_bold.ttf") format("truetype");
@@ -31,20 +26,17 @@ img {
   font-weight: normal;
   font-style: normal;
 }
-
 body {
   background: #f6f6f6;
   font-size: 14px;
   font-family: Arial, Tahoma, sans-serif;
 }
-
 .calculate_form {
   max-width: 510px;
   width: 100%;
   margin: auto;
   margin-top: 5%;
 }
-
 .calculate_form label {
   display: block;
   width: 55%;
@@ -52,7 +44,6 @@ body {
   font-family: "PT Sans Bold",Arial, Tahoma, sans-serif;
   font-size: 1.14em;
 }
-
 .calculate_form select {
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -64,7 +55,6 @@ body {
   font-family: "PT Sans Regular", Arial, Tahoma, sans-serif;
   font-size: 1.14em;
 }
-
 .calculate_form .weight {
   width: 80%;
   margin: auto;
@@ -75,7 +65,6 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
 .calculate_form .weight input {
   background: inherit;
   padding: 3% 1.8% 2.5% 0;
@@ -84,7 +73,6 @@ body {
   font-family: "PT Sans Regular",Arial, Tahoma, sans-serif;
   font-size: 1.17em;
 }
-
 .calculate_form .precious {
   width: 80%;
   margin: auto;
@@ -94,7 +82,6 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
 .calculate_form .precious select {
   background: url(../img/check.png) no-repeat;
   background-position: 100% 58%;
@@ -105,7 +92,6 @@ body {
   border-radius: 0;
   font-size: 1.28em;
 }
-
 .calculate_form .calculate_checked {
   position: relative;
   width: 80%;
@@ -119,7 +105,6 @@ body {
 .calculate_form .calculate_checked .calculate_label {
   width: 83.8%;
 }
-
 .calculate_form .calculate_checked span {
   position: absolute;
   top: -50%;
@@ -130,18 +115,15 @@ body {
   color: #e60000;
   font-size: 0.92em;
 }
-
 .calculate_form .calculate_checked .onoffswitch {
   position: relative;
   width: 67px;
   margin-left: -1.3%;
 }
-
-.caculate_form .calculate_checked .onoffswitch .onoffswitch-label {
+.calculate_form .calculate_checked .onoffswitch .onoffswitch-label {
   width: 80%;
   border: none;
 }
-
 .calculate_form .calculate_checked .onoffswitch .onoffswitch-label .onoffswitch-inner:before {
   content: 'Нет';
   background: #e0e0e0;
@@ -150,7 +132,6 @@ body {
   font-size: .7em;
   color: black;
 }
-
 .calculate_form .calculate_checked .onoffswitch .onoffswitch-label .onoffswitch-inner:after {
   content: 'да';
   background: #7f7f7f;
@@ -159,13 +140,11 @@ body {
   font-size: .76em;
   color: white;
 }
-
 .calculate_form .calculate_checked .onoffswitch .onoffswitch-label .onoffswitch-switch {
   width: 23px;
   margin: 2px;
   border: none;
 }
-
 .calculate_form .fare {
   width: 80%;
   margin: auto;
@@ -175,7 +154,6 @@ body {
   display: flex;
   margin-bottom: 9%;
 }
-
 .calculate_form .fare label {
   display: -webkit-box;
   display: -webkit-flex;
@@ -186,7 +164,6 @@ body {
   width: 10%;
   margin: 0.6% 0 0 6%;
 }
-
 .calculate_form .discount {
   width: 80%;
   margin: auto;
@@ -195,11 +172,9 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
 .calculate_form .discount select {
   padding: 2% 20% 1.8% 5%;
 }
-
 .calculate_form .slider {
   width: 80%;
   margin: auto;
@@ -209,26 +184,21 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
 .calculate_form .slider label {
   width: 34%;
   margin: 10.5% 0 0 0;
 }
-
 .calculate_form .slider .slider_block {
   width: 57.5%;
   margin: 16% 0 0 9%;
 }
-
 .calculate_form .slider .slider_block .irs {
   height: 1px;
   background: #bebebe;
 }
-
 .calculate_form .slider .slider_block .irs .irs-min, .calculate_form .slider .slider_block .irs .irs-max {
   visibility: hidden !important;
 }
-
 .calculate_form .slider .slider_block .irs .irs-single {
   width: 41%;
   background: white;
@@ -241,7 +211,6 @@ body {
   text-align: center;
   font-family: "PT Sans Bold", Arial, Tahoma, sans-serif;
 }
-
 .calculate_form .slider .slider_block .irs .irs-single:after {
   content: '';
   position: absolute;
@@ -256,7 +225,6 @@ body {
   -ms-transform: rotate(225deg);
   -moz-transform: rotate(225deg);
 }
-
 .calculate_form .slider .slider_block .irs .irs-single:before {
   content: '';
   position: absolute;
@@ -271,7 +239,6 @@ body {
   -ms-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
 }
-
 .calculate_form button {
   width: 48%;
   margin: 9% 0 7.4% 9.8%;
@@ -284,7 +251,6 @@ body {
   font-family: "PT Sans Bold", Arial, Tahoma, sans-serif;
   font-size: 1.14em;
 }
-
 .tooltip {
   width: 100px;
   height: 100px;
@@ -294,7 +260,6 @@ body {
   -webkit-border-radius: 10px;
           border-radius: 10px;
 }
-
 @media (max-width: 521px) {
   body {
     font-size: 12px;
@@ -303,16 +268,14 @@ body {
     right: 32px !important;
   }
 }
-
 @media (max-width: 406px) {
   body {
     font-size: 9px;
   }
   .onoffswitch-switch {
-    right: 29px !important;
+    right: 28px !important;
   }
 }
-
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .fare {
     width: 80%;
@@ -338,7 +301,6 @@ body {
     padding: 3% 5.8% 2.5% 0 !important;
   }
 }
-
 @-moz-document url-prefix() {
   .irs {
     margin: 16% 0 0 9%;
@@ -355,7 +317,7 @@ body {
     margin: auto;
     display: flex;
   }
-  .discount select {
-    padding: 2% 18% 1.8% 0 !important;
-  }
+    .discount select {
+      padding: 2% 18% 1.8% 0 !important;
+    }
 }
