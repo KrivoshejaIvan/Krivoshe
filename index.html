@@ -1,0 +1,70 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MyProject</title>
+        <![if gte IE]><link rel="stylesheet" href="css/style.ie.moz.css"/><![endif]>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/ion.rangeSlider.css"/>
+        <link rel="stylesheet" href="css/jquery.onoff.css">
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/ion.rangeSlider.js"></script>
+        <script src="js/jquery.onoff.js"></script>
+    </head>
+    <body>
+        <form action="#" name="calculateForm" class="calculate_form">
+            <div class="weight">
+                <label for="weight_text" >
+                    Вес изделия
+                </label>
+                <input id="weight_text" type="text">
+            </div>
+            <div class="precious">
+                <label for="precious_select">
+                    Проба металла
+                </label>
+                <select id="precious_select">
+                    <option>585 проба</option>
+                    <option>800 проба</option>
+                </select>
+            </div>
+            <div class="calculate_checked">
+                <input id="check" type="checkbox">
+                <label for="check" class="calculate_label">
+                    Камни и вставки
+                </label>
+                <span id="message">Окончательная оценочная стоимость залога может отличаться от указанной в расчете</span>
+            </div>
+            <div class="fare">
+                <label for="fare_select">
+                    Тарифный план
+                    <img id="test" src="img/i%20копия%202.png" alt=""/>
+                </label>
+                <select id="fare_select">
+                    <option>«Простой»</option>
+                    <option>«Сложный»</option>
+                </select>
+            </div>
+            <div class="discount">
+                <label for="discount_select">
+                    Ваш дисконтный статус
+                </label>
+                <select id="discount_select">
+                    <option>Без статуса</option>
+                    <option>Со статусом</option>
+                </select>
+            </div>
+            <div class="slider">
+                <label for="slider">
+                    Срок кредитования
+                    до продления
+                </label>
+                <div class="slider_block">
+                    <input type="text" id="slider">
+                </div>
+            </div>
+            <button>Расcчитать кредит</button>
+        </form>
+        <script src="js/script.js"></script>
+    </body>
+</html>
